@@ -262,6 +262,29 @@ nav ul li a:hover
 	float: right;
 }
 
+.formulario 
+{
+	padding: 1em;
+	text-align: right;
+	display: none;
+
+}
+.formulario input
+{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type="submit"]
+{
+	background: #22BCE0;
+	border-color: #22BCE0;
+	color: white;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+
 
 @media screen and (min-width: 800px){
 
@@ -279,5 +302,7 @@ nav ul li a:hover
 		margin-right: 2%;
 
 	}
+
+
 
 }
